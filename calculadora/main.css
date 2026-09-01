@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    background-image: url(cara-só-do-ovo-do-bebê-na-mão-do-homem-68261728.webp);
+    background-size: auto;
+}
+
+.calculadora {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 60vmin;
+    height: 50vmin;
+}
+
+.botao-igual,
+input {
+    grid-column: -1 / 1;
+}
+
+input {
+    text-align: right;
+    background-color: #945059;
+}
